@@ -16,17 +16,17 @@ static const Block blocks[] = {
 	//{"",	"sb-torrent",	20,	7},
 	{"",	"sb-forecast",	18000,	5},
 	{"",	"sb-redshift",	0,	26},
+	{"",	"sb-nettraf",	1,	16},
 	{"",	"sb-disk",	10,	15},
 	{"",	"sb-memory",	10,	14},
 	{"",	"sb-cpu",		10,	18},
 	/* {"",	"sb-moonphase",	18000,	17}, */
 	//{"",	"sb-doppler",	0,	13},
 	{"",	"sb-mailbox",	180,	12},
-	{"",	"sb-nettraf",	1,	16},
-	{"",	"sb-volume",	0,	10},
 	{"",	"sb-battery",	5,	3},
-	{"",	"sb-clock",	60,	1},
 	{"",	"sb-internet",	5,	4},
+	{"",	"sb-volume",	0,	10},
+	{"",	"sb-clock",	60,	1},
 	//{"",	"sb-help-icon",	0,	15},
 };
 
