@@ -16,6 +16,7 @@ static const Block blocks[] = {
 	//{"",	"sb-torrent",	20,	7},
 	{"",	"sb-prayertimes",	18000,	13},
 	{"",	"sb-forecast",	18000,	5},
+	{"",	"sb-snow",	18000,	17},
 	{"",	"sb-redshift",	18000,	26},
 	{"",	"sb-nettraf",	1,	16},
 	{"",	"sb-disk",	10,	15},
