@@ -2,34 +2,36 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	/* {"⌨", "sb-kbselect", 0, 30}, */
-	{"", "cat /tmp/recordingicon 2>/dev/null",	0,	9},
-	//{"",	"sb-tasks",	10,	26},
-	{"",	"sb-music",	0,	11},
-	{"",	"sb-pacpackages",	0,	8},
-	//{"",	"sb-news",		0,	6},
+	/* {"",	"sb-tasks",	10,	26}, */
+	/* {"",	"sb-music",	0,	11}, */
+	/* {"",	"sb-news",		0,	6}, */
 	/* {"",	"sb-price lbc \"LBRY Token\" 📚",			9000,	22}, */
 	/* {"",	"sb-price bat \"Basic Attention Token\" 🦁",	9000,	20}, */
 	/* {"",	"sb-price link \"Chainlink\" 🔗",			300,	25}, */
 	/* {"",	"sb-price xmr \"Monero\" 🔒",			9000,	24}, */
 	/* {"",	"sb-price eth Ethereum 🍸",	9000,	23}, */
 	/* {"",	"sb-price btc Bitcoin 💰",				9000,	21}, */
-	//{"",	"sb-torrent",	20,	7},
-	{"",	"sb-prayertimes",	18000,	13},
+	/* {"",	"sb-torrent",	20,	7}, */
+	/* {"",	"sb-snow",	18000,	17}, */
+	/* {"",	"sb-moonphase",	18000,	17}, */
+	/* {"",	"sb-doppler",	0,	13}, */
+	/* {"",	"sb-help-icon",	0,	15}, */
+	{"", "cat /tmp/recordingicon 2>/dev/null",	0,	9},
+	{"",	"sb-pacpackages",	0,	8},
+	{"",	"sb-prayertimes",	60,	13},
 	{"",	"sb-forecast",	18000,	5},
-	//{"",	"sb-snow",	18000,	17},
-	{"",	"sb-redshift",	18000,	26},
 	{"",	"sb-nettraf",	1,	16},
 	{"",	"sb-disk",	10,	15},
 	{"",	"sb-memory",	10,	14},
 	{"",	"sb-cpu",		10,	18},
-	/* {"",	"sb-moonphase",	18000,	17}, */
-	//{"",	"sb-doppler",	0,	13},
-	{"",	"sb-mailbox",	180,	12},
+	/* {"",	"sb-mailbox",	180,	12}, */
+	{"",	"sb-redshift",	18000,	26},
+	{"",	"sb-brightness",	0,	2},
+	/* {"",	"sb-dwb",	0,	17}, */
 	{"",	"sb-battery",	5,	3},
 	{"",	"sb-internet",	5,	4},
 	{"",	"sb-volume",	0,	10},
-	{"",	"sb-clock",	60,	1},
-	//{"",	"sb-help-icon",	0,	15},
+	{"",	"sb-clock",	30,	1},
 };
 
 //Sets delimiter between status commands. NULL character ('\0') means no delimiter.
