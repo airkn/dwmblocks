@@ -16,6 +16,7 @@ static const Block blocks[] = {
 	/* {"",	"sb-moonphase",	18000,	17}, */
 	/* {"",	"sb-doppler",	0,	13}, */
 	/* {"",	"sb-help-icon",	0,	15}, */
+	/* {"",	"sb-mailbox",	180,	12}, */
 	{"", "cat /tmp/recordingicon 2>/dev/null",	0,	9},
 	{"",	"sb-pacpackages",	0,	8},
 	{"",	"sb-prayertimes",	60,	13},
@@ -24,10 +25,9 @@ static const Block blocks[] = {
 	{"",	"sb-disk",	10,	15},
 	{"",	"sb-memory",	10,	14},
 	{"",	"sb-cpu",		10,	18},
-	/* {"",	"sb-mailbox",	180,	12}, */
 	{"",	"sb-redshift",	18000,	26},
+	{"",	"sb-dwb",	0,	17},
 	{"",	"sb-brightness",	0,	2},
-	/* {"",	"sb-dwb",	0,	17}, */
 	{"",	"sb-battery",	5,	3},
 	{"",	"sb-internet",	5,	4},
 	{"",	"sb-volume",	0,	10},
